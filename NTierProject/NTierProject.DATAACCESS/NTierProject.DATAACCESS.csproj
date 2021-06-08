@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NTierProject.CORE\NTierProject.CORE.csproj" />
+    <ProjectReference Include="..\NTierProject.ENTITIES\NTierProject.ENTITIES.csproj" />
   </ItemGroup>
 
 </Project>

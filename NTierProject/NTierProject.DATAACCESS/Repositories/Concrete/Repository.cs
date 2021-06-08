@@ -46,7 +46,7 @@ namespace NTierProject.DATAACCESS.Repositories.Concrete
         //{
         //    return _context.Set<T>().Any(exp);
         //}
-
+        
         public List<T> GetActive()
         {
             return _context.Set<T>().Where(x => x.Status == Status.Active).ToList();
